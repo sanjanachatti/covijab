@@ -281,14 +281,18 @@ public class Login extends javax.swing.JFrame {
             data=col.login(this.nationalidtxt.getText(), this.passwordtxt.getText());
             
             if(!data.equals("UnKnown")){
-                System.out.print(data.split("\t")[2]);
-                
+               
+                if(data.split("\t").length<3){
+                    return;
+                }
                 if(data.split("\t")[3].equalsIgnoreCase("1"))
                 {
                  //EnterPrise1   
                     EntPrise enter=new EntPrise();
                     enter.setName(data.split("\t")[1]);
                     enter.setId("1");
+                    enter.show();
+                     this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("2"))
                 {
@@ -296,12 +300,16 @@ public class Login extends javax.swing.JFrame {
                     EntPrise enter=new EntPrise();
                     enter.setName(data.split("\t")[1]);
                     enter.setId("2");
+                    enter.show();
+                     this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("3"))
                 {//EnterPrise3
                     EntPrise enter=new EntPrise();
                     enter.setName(data.split("\t")[1]);
                     enter.setId("3");
+                    enter.show();
+                     this.hide();
                 }
                  if(data.split("\t")[3].equalsIgnoreCase("4"))
                 {
@@ -309,6 +317,8 @@ public class Login extends javax.swing.JFrame {
                     EntPrise enter=new EntPrise();
                     enter.setName(data.split("\t")[1]);
                     enter.setId("4");
+                    enter.show();
+                     this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("5"))
                 {
@@ -317,6 +327,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("3");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                     this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("6"))
                 {
@@ -325,6 +336,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("2");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                     this.hide();
                     
                 }
                  if(data.split("\t")[3].equalsIgnoreCase("7"))
@@ -334,6 +346,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("3");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                    this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("8"))
                 {
@@ -342,6 +355,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("4");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                     this.hide();
                 }
                 if(data.split("\t")[3].equalsIgnoreCase("9"))
                 {
@@ -350,6 +364,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("5");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                     this.hide();
                 }
                   if(data.split("\t")[3].equalsIgnoreCase("10"))
                 {
@@ -358,6 +373,7 @@ public class Login extends javax.swing.JFrame {
                     org.SetId("6");
                     org.setName(data.split("\t")[1]);
                     org.show();
+                     this.hide();
                     
                     
                 }
@@ -400,14 +416,7 @@ public class Login extends javax.swing.JFrame {
                     
                 }
                
-                else{
-                    Home home=new Home();
-                    home.setId(data.split("\t")[0]);
-                    home.setName(data.split("\t")[1]);
-                    home.setusername(data.split("\t")[2]);
-                    home.show();
-                    this.hide();
-                }
+            
                 
             }
             else{
