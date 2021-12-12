@@ -400,11 +400,14 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanel4">
+<<<<<<< HEAD
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="33" green="0" red="99" type="rgb"/>
                     </Property>
                   </Properties>
+=======
+>>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="Jab Request">
@@ -443,8 +446,13 @@
                               <Table columnCount="4" rowCount="0">
                                 <Column editable="false" title="id" type="java.lang.Object"/>
                                 <Column editable="false" title="National Id" type="java.lang.Object"/>
+<<<<<<< HEAD
                                 <Column editable="false" title="Date/Time" type="java.lang.Object"/>
                                 <Column editable="false" title="Name" type="java.lang.Object"/>
+=======
+                                <Column editable="false" title="Name" type="java.lang.Object"/>
+                                <Column editable="false" title="Date" type="java.lang.Object"/>
+>>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                               </Table>
                             </Property>
                             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -481,11 +489,14 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanel1">
+<<<<<<< HEAD
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="33" green="0" red="99" type="rgb"/>
                     </Property>
                   </Properties>
+=======
+>>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="update User">
@@ -499,11 +510,14 @@
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel5">
+<<<<<<< HEAD
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="33" green="0" red="99" type="rgb"/>
                         </Property>
                       </Properties>
+=======
+>>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                           <AbsoluteConstraints x="140" y="30" width="510" height="480"/>

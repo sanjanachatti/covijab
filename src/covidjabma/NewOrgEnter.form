@@ -175,10 +175,7 @@
                 <Property name="text" type="java.lang.String" value="Update"/>
               </Properties>
               <Events>
-<<<<<<< HEAD
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton6MouseClicked"/>
-=======
->>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
               </Events>
             </Component>
@@ -307,23 +304,17 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Save"/>
                   </Properties>
-<<<<<<< HEAD
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseClicked"/>
                   </Events>
-=======
->>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Update"/>
                   </Properties>
-<<<<<<< HEAD
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseClicked"/>
                   </Events>
-=======
->>>>>>> c859e017b5e8df2ff8b20ce8b58a5ec83ddd11c5
                 </Component>
               </SubComponents>
             </Container>
